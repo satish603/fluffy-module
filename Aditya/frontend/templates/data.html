@@ -9,7 +9,17 @@
 </head>
 
 <body>
-    <h1>{{s}}</h1>
+    <h5 id="newh1">{{s[1]}}</h5>
+    <h4>{{s}}</h4>
+    <h4>{{r}}</h4>
+
+    <p id="demo"></p>
+
+    <script>
+    const text = '[ "Ford", "BMW", "Audi", "Fiat" ]';
+    const myArr = console.log(JSON.parse({s}));
+    document.getElementById("newh1").innerHTML = myArr[0];
+    </script>
 </body>
 
 </html>
