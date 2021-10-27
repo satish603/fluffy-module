@@ -1,115 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-
-    <head>
-
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Search Engine</title>
-
-        <!-- CSS -->
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,300italic,400italic,700,700italic">
-        
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-       
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-		<!-- Font Awesome -->
-		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
-    </head>
-
-    <body>
-
-        <!-- Coming Soon -->
-        <div class="coming-soon">
-            <div class="inner-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                        	<div class="logo wow fadeInDown">
-                        		<h1>
-                        			<a href="">Search engine</a>
-                        		</h1>
-                        	</div>
-                            <h2 class="wow fadeInDown">WHAT ARE YOU  <strong>LOOKING</strong>  FOR?</h2>
-                            <div class="s004">
-                              <form action="." method="post">
-                                <fieldset>
-                                 
-                                  <div class="inner-form">
-                                    <div class="input-field">
-                                      <input class="form-control" id="choices-text-preset-values" name="search" type="text" placeholder="Type to search..." />
-                                      <button class="btn-search" type="submit">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                          <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
-                                        </svg>
-                                      </button>
-                                    </div>
-                                  </div>
-                                  <div class="suggestion-wrap">
-                                    <span>Books</span>
-                                    <span>Movies</span>
-                                    <span>pdfs</span>
-                                  </div>
-                                </fieldset>
-                              </form>
-                            </div>
-                            <script src="static/js/extention/choices.js"></script>
-                            <script>
-                              var textPresetVal = new Choices('#choices-text-preset-values',
-                              {
-                                removeItemButton: true,
-                              });
-                        
-                            </script>
-                           
-                        </div>
-                    </div>
-                </div>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="colorlib.com">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800" rel="stylesheet" />
+    <link href="static/css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="s004">
+      <form action="." method="post">
+        <fieldset>
+          <legend>WHAT ARE YOU LOOKING FOR?</legend>
+          <div class="inner-form">
+            <div class="input-field">
+              <input class="form-control" id="choices-text-preset-values" name="search" type="text" placeholder="Type to search..." />
+              <button class="btn-search" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                </svg>
+              </button>
             </div>
-        </div>
-        
-        <!-- Footer -->
-        <footer>
-	        <div class="container">
-	            <div class="row">
-	                <div class="col-sm-7 footer-copyright">
-	                    <p>MAde Search easy  <a href="https://www.github.com">Python Developers</a></p>
-	                </div>
-	                <div class="col-sm-5 footer-social pull-right">
-	                	<ul class="social-icon">
-								<li><a href=""><i class="fa fa-linkedin-square"></i></a></li>
-								<li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-								<li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-								<li><a href=""><i class="fa fa-youtube-square"></i></a></li>
-							</ul> 
-	                </div>
-	            </div>
-	        </div>
-        </footer>
+          </div>
+          <div class="suggestion-wrap">
+            <span>Books</span>
+            <span>Movies</span>
+            <span>pdfs</span>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <script src="static/js/extention/choices.js"></script>
+    <script>
+      var textPresetVal = new Choices('#choices-text-preset-values',
+      {
+        removeItemButton: true,
+      });
 
-
-        <!-- Javascript -->
-        <script src="assets/js/jquery-1.10.2.min.js"></script>
-        <script src="assets/js/jquery.backstretch.min.js"></script>
-        <script src="assets/js/jquery.countdown.min.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/scripts.js"></script>
-        
-        <!--[if lt IE 10]>
-            <script src="assets/js/placeholder.js"></script>
-        <![endif]-->
-
-    </body>
-
+    </script>
+  </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>
-
-
